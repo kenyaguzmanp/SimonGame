@@ -1,0 +1,195 @@
+ @media (min-width: 720px) {
+
+#title{
+    font-family: 'Suez One', serif;
+    font-size: 69px;
+    color: #ef8b8b;
+    margin-top: 79px;
+    margin-bottom: 35px;
+}
+
+.resultWrap{
+   font-family: 'Suez One', serif;
+    font-size: 30px;
+    color: #29CED6;
+    margin-bottom: 30px;
+}
+
+.paintButton0{
+    background-color: red;
+}
+
+.paintButton1{
+    background-color: blue;
+}
+
+.paintButton2{
+    background-color: green;
+}
+
+.paintButton3{
+    background-color: yellow;
+}
+
+.disable{
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.not-show{
+    display: none;
+}
+
+.place{
+    cursor: pointer;
+}
+
+.disablePlace{
+   pointer-events: none; 
+}
+
+/* */
+ /* The switch - the box around the slider */
+
+ .bootstrap-switch-handle-on{    
+     background-image: none !important;
+     background-color: #EF5B89 !important;
+ }
+ 
+ .bootstrap-switch-handle-off{
+     color: white !important;
+    background-image: none !important;
+     background-color: #29CED6 !important;
+ }
+
+ .iterationContent{
+     margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+/*    border-style: solid;*/
+    border-radius: 4px;
+    /* border-color: #a52fa8; */
+/*    background-color: blue;*/
+    background-color: #29ced6;
+ }
+ 
+ #iteration{
+     color: white;
+     font-size: 30px;
+ }
+ 
+ .switches{
+    margin: 20px 0 35px 0;
+ }
+ 
+ .side{
+     display: inline-block;
+    width: 20%;
+ }
+  
+ }
+ 
+ @media (max-width: 720px) {
+    #title{
+    font-family: 'Suez One', serif;
+    font-size: 4em;
+    color: #ef8b8b;
+    margin-top: 79px;
+    margin-bottom: 35px;
+}
+
+.resultWrap{
+   font-family: 'Suez One', serif;
+    font-size: 30px;
+    color: #29CED6;
+    margin-bottom: 30px;
+}
+
+.paintButton0{
+    background-color: red;
+}
+
+.paintButton1{
+    background-color: blue;
+}
+
+.paintButton2{
+    background-color: green;
+}
+
+.paintButton3{
+    background-color: yellow;
+}
+
+.disable{
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.not-show{
+    display: none;
+}
+
+.place{
+    cursor: pointer;
+}
+
+.disablePlace{
+   pointer-events: none; 
+}
+
+/* */
+ /* The switch - the box around the slider */
+
+ .bootstrap-switch-handle-on{    
+     background-image: none !important;
+     background-color: #EF5B89 !important;
+ }
+ 
+ .bootstrap-switch-handle-off{
+     color: white !important;
+    background-image: none !important;
+     background-color: #29CED6 !important;
+ }
+
+ .iterationContent{
+     margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+/*    border-style: solid;*/
+    border-radius: 4px;
+    /* border-color: #a52fa8; */
+/*    background-color: blue;*/
+    background-color: #29ced6;
+ }
+ 
+ #iteration{
+     color: white;
+     font-size: 30px;
+ }
+ 
+ .switches{
+    margin: 20px 0 35px 0;
+ }
+ 
+ .side{
+  display: inline-block;
+    width: 20%;
+ }
+ 
+ .leftSide, .rightSide{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ .middleSide{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+ }
+
+}
